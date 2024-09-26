@@ -21,7 +21,7 @@ app.use(bodyParser.json());
 
 
 // Connect to the database
-//connectDb();
+connectDb();
 
 // Flask backend URL
 const FLASK_BACKEND_URL = 'http://localhost:5000';  // Assuming Flask runs on port 5001
